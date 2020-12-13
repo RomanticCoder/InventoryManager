@@ -45,7 +45,6 @@
             this.value_location = new System.Windows.Forms.ComboBox();
             this.value_type = new System.Windows.Forms.ComboBox();
             this.btn_submit = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.value_quantity)).BeginInit();
@@ -242,15 +241,6 @@
             this.btn_submit.UseVisualStyleBackColor = false;
             this.btn_submit.Click += new System.EventHandler(this.btn_submit_Click);
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(873, 365);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(54, 18);
-            this.label2.TabIndex = 46;
-            this.label2.Text = "label2";
-            // 
             // label8
             // 
             this.label8.AutoSize = true;
@@ -269,7 +259,6 @@
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(1143, 675);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.btn_submit);
             this.Controls.Add(this.value_type);
             this.Controls.Add(this.value_location);
@@ -316,7 +305,6 @@
         private System.Windows.Forms.ComboBox value_location;
         private System.Windows.Forms.ComboBox value_type;
         private System.Windows.Forms.Button btn_submit;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label8;
     }
 }
