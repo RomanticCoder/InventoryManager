@@ -1,6 +1,10 @@
 # InventoryManager
 using C#, MS sql server
 
+.Net Framework 4.7.2
+Microsoft.Office.Interop.Excel 15.0.4795.1000
+System.Data.SqlClient 4.8.2
+
 
 ## Purpose 
 - an inventory management system for a home pantry
